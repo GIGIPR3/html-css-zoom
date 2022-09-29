@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Rubik', sans-serif;
+}
+
 body{
     background-color: rgb(19, 19, 19);
     color: white;
@@ -20,6 +24,21 @@ body{
     background-color: rgb(34, 34, 34);
     text-align: end;
     padding: 10px;
+}
+
+.top-buttonL{
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.top-buttonS{
+    display: inline-block;
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
 }
 
 .users-space{
@@ -43,4 +62,8 @@ body{
     width: 200px;
     height: 100px;
     margin: 5px;
+}
+
+.bottom-buttons{
+    background-color: rgb(34, 34, 34);
 }
