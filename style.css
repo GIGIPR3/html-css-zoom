@@ -47,7 +47,14 @@ body{
     justify-content: center;
     width: calc(100/6);
     flex-wrap: wrap;
+    overflow: scroll;
 }
+
+.users-space::-webkit-scrollbar {
+    display: none;    
+  }
+
+  
 
 .flex-row{
     display: flex;
@@ -62,8 +69,53 @@ body{
     width: 200px;
     height: 100px;
     margin: 5px;
+    position: relative;
+}
+
+.name{
+    display: inline-block;
+    background-color: rgba(87, 87, 87, 0.404);
+    position: absolute;
+    bottom: 0;
+}
+
+.mic-mute{
+    color: red;
 }
 
 .bottom-buttons{
     background-color: rgb(34, 34, 34);
+    padding: 15px;
+}
+
+.icon{
+    text-align: center;
+    font-size: x-large;
+}
+
+.font-small{
+    font-size: small;
+}
+
+.color-green{
+    color: green;
+}
+
+.container-button{
+    margin-right: 20px;
+}
+
+.flex-row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.end-meeting{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    margin-top: 5%;
 }
